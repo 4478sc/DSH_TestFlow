@@ -1,0 +1,24 @@
+# runtime data / user content
+data/
+uploads/
+*.db
+*.db-wal
+*.db-shm
+seed.json
+.test-tmp/
+.probe/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+
+# env & secrets
+.env
+.env.*
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
